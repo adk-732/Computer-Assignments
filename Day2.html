@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Keys in DBMS</title>
+	<link rel="stylesheet" href="day2.css">
+</head>
+<body>
+	<header>
+		<h1>Keys in DBMS</h1>
+	</header>
+	<main>
+		<section>
+			<h2>What are Keys in DBMS?</h2>
+			<p>In a Database Management System (DBMS), a key is a single or combination of multiple columns in a table that uniquely identifies a record in the table.</p>
+		</section>
+		<section>
+			<h2>Types of Keys</h2>
+			<ul>
+				<li>
+					<strong>Primary Key (PK)</strong>
+					<p>A primary key is a column or set of columns that uniquely identifies each record in a table. It is used to enforce data integrity and ensure that each record is unique. A primary key cannot be null, and it must be unique for each record.</p>
+				</li>
+				<li>
+					<strong>Unique Key (UK)</strong>
+					<p>A unique key is a column or set of columns that uniquely identifies each record in a table, but can be null. It is used to ensure that each record has a unique value for the specified column(s), but it does not enforce data integrity like a primary key.</p>
+				</li>
+				<li>
+					<strong>Foreign Key (FK)</strong>
+					<p>A foreign key is a column or set of columns that references the primary key of another table. It is used to establish relationships between tables and ensure data consistency.</p>
+				</li>
+				<li>
+					<strong>Composite Key</strong>
+					<p>A composite key is a primary key that consists of multiple columns. It is used when a single column is not enough to uniquely identify each record in a table.</p>
+				</li>
+				<li>
+					<strong>Super Key</strong>
+					<p>A super key is a set of columns that uniquely identifies each record in a table, but may not be minimal. It is a superset of a candidate key.</p>
+				</li>
+				<li>
+					<strong>Candidate Key</strong>
+					<p>A candidate key is a minimal super key that uniquely identifies each record in a table. It is a set of columns that can be used as a primary key.</p>
+				</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Importance of Keys</h2>
+			<p>Keys play a crucial role in maintaining data integrity and consistency in a database. They help to:</p>
+			<ul>
+				<li>Uniquely identify each record in a table</li>
+				<li>Prevent data duplication</li>
+				<li>Establish relationships between tables</li>
+				<li>Improve data retrieval and query performance</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; adk-732</p>
+	</footer>
+</body>
+</html>
